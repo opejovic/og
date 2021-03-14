@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-between items-center pt-4">
+  <div class="flex justify-between items-center pt-4 2xl:pt-20">
     <div
       class="w-4/5"
       style="
@@ -102,7 +102,7 @@
   </div>
 
   <!-- Curly line -->
-  <div class="pt-8">
+  <div class="pt-8 2xl:pt-16">
     <img
       class="hidden lg:block absolute w-full left-0"
       src="../assets/svgs/home-line.svg"

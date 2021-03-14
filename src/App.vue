@@ -1,10 +1,20 @@
 <template>
-  <div id="nav">
+  <!-- <div id="nav">
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
   </div>
-  <router-view />
+  <router-view /> -->
+  <div
+    class="h-screen bg-dfc-light dark:bg-dfc-dark text-dfc-dark dark:text-dfc-light"
+  >
+    <!-- Container -->
+    <div class="mx-auto container max-w-screen-dfc">
+      <!-- Content -->
+      <p>Hello</p>
+    </div>
+  </div>
 </template>
+
 
 <style lang="scss">
 #app {

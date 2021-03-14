@@ -26,8 +26,10 @@ import { defineComponent } from "vue";
 export default defineComponent({
   setup() {
     const toggleTheme = () => {
-      const html = document.getElementsByTagName("HTML")[0];
-      html.classList.toggle("dark");
+      const toggled = document.documentElement.classList.toggle("dark");
+      const theme = toggled ? "dark" : "light";
+
+      localStorage.setItem("theme", theme);
     };
 
     return {

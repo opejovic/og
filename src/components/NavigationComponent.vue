@@ -5,12 +5,10 @@
       <h4 class="ml-1 text-4xl tracking-tighter font-bold">og.</h4>
     </div>
 
-    <div class="space-x-10 text-nav tracking-nav font-normal">
-      <button class="mr-2" @click.prevent="toggleTheme">
-        · toggle theme color
-      </button>
+    <div class="flex items-center space-x-10 text-nav tracking-nav font-normal">
       <router-link to="/">· home</router-link>
       <router-link to="/about">· about</router-link>
+      <ThemeSwitcher />
     </div>
   </div>
 </template>
@@ -18,21 +16,16 @@
 <script lang="ts">
 import { defineComponent } from "vue";
 import DfcLogo from "./DfcLogo.vue";
+import ThemeSwitcher from "./ThemeSwitcher.vue";
 
 export default defineComponent({
   components: {
     DfcLogo,
+    ThemeSwitcher,
   },
   name: "NavigationComponent",
   setup() {
-    const toggleTheme = () => {
-      const html = document.getElementsByTagName("HTML")[0];
-      html.classList.toggle("dark");
-    };
-
-    return {
-      toggleTheme,
-    };
+    return {};
   },
 });
 </script>

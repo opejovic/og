@@ -6,6 +6,9 @@
     </div>
 
     <div class="space-x-10 text-nav tracking-nav font-normal">
+      <button class="mr-2" @click.prevent="toggleTheme">
+        · toggle theme color
+      </button>
       <router-link to="/">· home</router-link>
       <router-link to="/about">· about</router-link>
     </div>
@@ -22,7 +25,14 @@ export default defineComponent({
   },
   name: "NavigationComponent",
   setup() {
-    return {};
+    const toggleTheme = () => {
+      const html = document.getElementsByTagName("HTML")[0];
+      html.classList.toggle("dark");
+    };
+
+    return {
+      toggleTheme,
+    };
   },
 });
 </script>

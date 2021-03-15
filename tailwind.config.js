@@ -4,14 +4,15 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'sans': ['Aktifo', 'ui-sans-serif', 'system-ui'],
-        'serif': ['Aktifo', 'ui-serif', 'Georgia'],
+        'sans': ['Aktifo-B', 'ui-sans-serif', 'system-ui'],
+        'serif': ['Aktifo-B', 'ui-serif', 'Georgia'],
       },
       fontSize: {
-        nav: '18px'
+        nav: '18px',
+        landing: '80px',
       },
       letterSpacing: {
-        nav: '-0.07em'
+        nav: '-0.05em'
       },
       screens: {
         'dfc': '1069px',

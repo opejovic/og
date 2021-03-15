@@ -1,11 +1,10 @@
 <template>
   <div class="flex justify-between items-center pt-4 2xl:pt-20">
     <div
-      class="w-4/5"
+      class="w-4/5 text-landing 2xl:text-9xl"
       style="
         font-style: normal;
         font-weight: 600;
-        font-size: 80px;
         line-height: 108.1%;
         letter-spacing: -0.07em;
       "

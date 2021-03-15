@@ -1,7 +1,7 @@
 <template>
   <div class="min-h-screen">
     <!-- Container -->
-    <div class="mx-auto container max-w-screen-dfc">
+    <div class="mx-auto container xl:max-w-screen-dfc 2xl:max-w-screen-2xl">
       <div>
         <NavigationComponent />
       </div>

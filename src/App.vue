@@ -1,21 +1,18 @@
 <template>
-  <div class="min-h-screen">
-    <!-- Container -->
-    <div class="mx-auto container xl:max-w-screen-dfc 2xl:max-w-screen-2xl">
-      <div>
-        <NavigationComponent />
-      </div>
-
-      <div>
-        <router-view />
-      </div>
-    </div>
+  <div
+    class="min-h-screen antialiased container max-w-screen-dfc xl:max-w-screen-xl mx-auto px-4 lg:px-10"
+  >
+    <NavigationComponent />
+    <router-view v-slot="{ Component }">
+      <transition name="fade" mode="out-in">
+        <component :is="Component"></component>
+      </transition>
+    </router-view>
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue";
-import { onBeforeMount } from "vue";
 import NavigationComponent from "@/components/NavigationComponent.vue";
 
 export default defineComponent({
@@ -39,3 +36,15 @@ export default defineComponent({
   },
 });
 </script>
+
+<style lang="scss" scoped>
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 300ms ease-in-out;
+}
+
+.fade-enter-from,
+.fade-leave-active {
+  opacity: 0;
+}
+</style>

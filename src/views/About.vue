@@ -62,19 +62,19 @@
     </div>
 
     <!-- Right side -->
-    <div class="flex items-center text-dfc-dark dark:text-dfc-light">
-      <JosefMullerBoxesBigger />
+    <div class="flex items-center text-dfc-purple dark:text-dfc-lavender">
+      <FourDashedBoxes />
     </div>
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue";
-import JosefMullerBoxesBigger from "@/components/JosefMullerBoxesBigger.vue";
+import FourDashedBoxes from "@/components/FourDashedBoxes.vue";
 
 export default defineComponent({
   components: {
-    JosefMullerBoxesBigger
+    FourDashedBoxes,
   },
   setup() {
     return {};

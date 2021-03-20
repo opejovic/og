@@ -1,6 +1,6 @@
 <template>
   <button
-    class="mr-2 border border-dfc-dark dark:border-white p-2 rounded-full"
+    class="mr-2 border border-dfc-dark dark:border-white p-2 rounded-full outline-none focus:outline-none"
     @click.prevent="toggleTheme"
   >
     <svg

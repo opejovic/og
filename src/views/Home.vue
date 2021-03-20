@@ -45,7 +45,9 @@
     </div>
     <!-- End curly line -->
 
-    <div class="mt-16 lg:mt-24 block lg:flex justify-between items-center">
+    <div
+      class="mt-16 lg:mt-20 2xl:mt-24 block lg:flex justify-between items-center"
+    >
       <JosefMullerBoxes class="mx-auto lg:mx-0" />
       <a
         class="block pt-10 lg:inline lg:pt-0 text-center"

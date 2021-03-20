@@ -10,9 +10,9 @@
           letter-spacing: -0.07em;
         "
       >
-        <p>Hello!</p>
-        I’m Og, a digital products maker.
-        <p>No bullshit.</p>
+        <p>Hello.</p>
+        I’m Og, and I design and build digital products.
+        <p>Japanese style.</p>
 
         <p
           class="font-light relative"

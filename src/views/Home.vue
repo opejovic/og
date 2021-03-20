@@ -1,8 +1,10 @@
 <template>
   <div>
-    <div class="flex justify-between items-center pt-4 lg:pt-12 2xl:pt-28">
+    <div
+      class="lg:flex lg:justify-between items-center pt-4 lg:pt-12 2xl:pt-28"
+    >
       <div
-        class="w-3/4 text-landing text-7xl"
+        class="w-full text-center pt-2 md:pt-20 lg:pt-0 lg:text-left lg:w-3/4 text-5xl md:text-7xl lg:text-landing"
         style="
           font-style: normal;
           font-weight: 600;
@@ -11,11 +13,11 @@
         "
       >
         <p>Hello.</p>
-        I’m Og, and I design and build digital products.
+        I’m Og, and I build digital products.
         <p>Japanese style.</p>
 
         <p
-          class="font-light relative"
+          class="font-light relative pt-10 lg:pt-4"
           style="
             font-size: 24px;
             line-height: 120%;
@@ -28,24 +30,30 @@
           scratch, using bleeding-edge technologies.
         </p>
       </div>
-      <div>
+      <div class="hidden lg:block">
         <SocialMediaLinks />
       </div>
     </div>
 
     <!-- Curly line -->
-    <div class="pt-8 2xl:pt-16">
+    <div class="pt-10 lg:pt-12 2xl:pt-16">
       <img
-        class="hidden lg:block absolute w-full left-0"
+        class="block absolute w-full left-0"
         src="../assets/svgs/home-line.svg"
         alt="curly-line"
       />
     </div>
     <!-- End curly line -->
 
-    <div class="mt-24 flex justify-between items-center">
-      <JosefMullerBoxes />
-      <a href="#" target="_blank" rel="noopener noreferrer">hello@ognjen.dev</a>
+    <div class="mt-16 lg:mt-24 block lg:flex justify-between items-center">
+      <JosefMullerBoxes class="mx-auto lg:mx-0" />
+      <a
+        class="block pt-10 lg:inline lg:pt-0 text-center"
+        href="#"
+        target="_blank"
+        rel="noopener noreferrer"
+        >hello@ognjen.dev</a
+      >
     </div>
   </div>
 </template>

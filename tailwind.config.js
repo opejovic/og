@@ -23,7 +23,9 @@ module.exports = {
       },
       colors: {
         'dfc-dark': "#141618",
-        'dfc-light': "#EBE8DF"
+        'dfc-light': "#EBE8DF",
+        'dfc-purple': "#7000C9",
+        'dfc-lavender': "#DEB4FF"
       }
     },
   },

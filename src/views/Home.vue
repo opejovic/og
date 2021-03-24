@@ -13,9 +13,7 @@
         "
       >
         <p>Hello.</p>
-        I’m Og, and I build digital products.
-        <p>Japanese style.</p>
-
+        I’m Og, and I build things for the web.
         <p
           class="font-light relative pt-10 lg:pt-4"
           style="

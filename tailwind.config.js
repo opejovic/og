@@ -8,7 +8,7 @@ module.exports = {
     extend: {
       fontFamily: {
         'sans': ['Aktifo-B', 'ui-sans-serif', 'system-ui'],
-        'serif': ['Aktifo-B', 'ui-serif', 'Georgia'],
+        'serif': ['Aktifo-B', 'ui-serif'],
       },
       fontSize: {
         nav: '18px',

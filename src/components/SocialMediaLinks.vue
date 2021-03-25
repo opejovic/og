@@ -1,7 +1,7 @@
 <template>
   <div class="space-y-6">
     <!-- Github -->
-    <a class="block" href="#">
+    <a class="block" href="https://github.com/opejovic" target="_blank">
       <svg
         width="25"
         height="25"
@@ -17,7 +17,7 @@
     <!-- End github -->
 
     <!-- Twitter -->
-    <a class="block" href="#">
+    <a class="block" href="https://twitter.com/opejovic" target="_blank">
       <svg
         width="24"
         height="24"
@@ -41,7 +41,11 @@
     <!-- End twitter -->
 
     <!-- Linkedin -->
-    <a class="block" href="#">
+    <a
+      class="block"
+      href="https://www.linkedin.com/in/ognjen-pejovic-831a191b/"
+      target="_blank"
+    >
       <svg
         width="24"
         height="24"
@@ -58,7 +62,11 @@
     <!-- End linkedin -->
 
     <!-- Youtube -->
-    <a class="block" href="#">
+    <a
+      class="block"
+      href="https://www.youtube.com/channel/UC-61NDn69uOsnVkXePclebg"
+      target="_blank"
+    >
       <svg
         width="24"
         height="24"

@@ -55,7 +55,7 @@
       v-show="show"
       class="bg-dfc-light dark:bg-dfc-dark z-40 w-full p-10 h-screen inset-0 fixed flex items-center justify-center"
     >
-      <ul class="pt-10 block font-mono text-2xl w-full text-center">
+      <ul class="block font-mono text-2xl w-full text-center">
         <li @click="toggleMenu" class="py-2">
           <router-link to="/">01. home</router-link>
         </li>
@@ -79,13 +79,24 @@
           </svg>
         </li>
         <li class="py-2">
-          <a href="#">Github</a>
+          <a href="https://github.com/opejovic" target="_blank">Github</a>
         </li>
         <li class="py-2">
-          <a href="#">Twitter</a>
+          <a href="https://twitter.com/opejovic" target="_blank">Twitter</a>
         </li>
         <li class="pt-2 pb-4">
-          <a href="#">LinkedIn</a>
+          <a
+            href="https://www.linkedin.com/in/ognjen-pejovic-831a191b/"
+            target="_blank"
+            >LinkedIn</a
+          >
+        </li>
+        <li class="pt-2 pb-4">
+          <a
+            href="https://www.youtube.com/channel/UC-61NDn69uOsnVkXePclebg"
+            target="_blank"
+            >Youtube</a
+          >
         </li>
         <li class="py-4">
           <svg

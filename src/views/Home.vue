@@ -22,8 +22,6 @@
             letter-spacing: -0.06em !important;
           "
         >
-          <!-- You get complete digital product, crafted with bleeding-edge
-        technologies, driven by data and research for added value. -->
           I can help you build bespoke high-quality web applications from
           scratch, using bleeding-edge technologies.
         </p>

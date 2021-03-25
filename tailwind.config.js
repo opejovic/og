@@ -12,7 +12,7 @@ module.exports = {
       },
       fontSize: {
         nav: '18px',
-        landing: '80px',
+        landing: '80px'
       },
       letterSpacing: {
         nav: '-0.05em'

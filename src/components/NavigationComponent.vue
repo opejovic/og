@@ -53,7 +53,7 @@
 
     <div
       v-show="show"
-      class="absolute bg-dfc-dark dark:bg-dfc-light z-40 w-full p-10 inset-0 h-1/2 overflow-hidden"
+      class="absolute bg-dfc-light dark:bg-dfc-dark z-40 w-full p-10 inset-0 overflow-hidden"
     >
       <ul class="pt-10">
         <li @click="toggleMenu"><router-link to="/">· home</router-link></li>

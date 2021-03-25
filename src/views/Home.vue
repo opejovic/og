@@ -1,10 +1,10 @@
 <template>
-  <div>
+  <div class="">
     <div
       class="lg:flex lg:justify-between items-center pt-4 lg:pt-12 2xl:pt-28"
     >
       <div
-        class="w-full text-center pt-2 md:pt-20 lg:pt-0 lg:text-left lg:w-3/4 text-5xl md:text-7xl lg:text-landing"
+        class="w-full pt-2 md:pt-20 lg:pt-0 text-left lg:w-3/4 text-5xl md:text-7xl lg:text-landing"
         style="
           font-style: normal;
           font-weight: 600;
@@ -17,8 +17,8 @@
         <p
           class="font-light relative pt-10 lg:pt-4"
           style="
-            font-size: 24px;
-            line-height: 120%;
+            font-size: 20px;
+            line-height: 150%;
             letter-spacing: -0.06em !important;
           "
         >
@@ -48,7 +48,7 @@
     >
       <JosefMullerBoxes class="mx-auto lg:mx-0" />
       <a
-        class="block pt-10 lg:inline lg:pt-0 text-center"
+        class="block pt-10 lg:inline lg:pt-0 text-center font-mono"
         href="#"
         target="_blank"
         rel="noopener noreferrer"

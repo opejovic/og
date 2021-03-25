@@ -2,7 +2,7 @@
   <div class="lg:flex justify-between items-center pt-4 lg:pt-12 xl:pt-18">
     <!-- Left side -->
     <div
-      class="w-full lg:w-3/5 pt-10 border-l border-dashed pl-6 pr-6 lg:pr-0 border-gray-400"
+      class="w-full lg:w-3/5 pt-10 sm:border-l border-dashed pl-6 pr-6 lg:pr-0 border-gray-400"
     >
       <div
         class="font-light pb-10 text-justify text-xl md:text-2xl"

@@ -1,5 +1,6 @@
 <template>
   <button
+    v-if="showIcon"
     class="mr-2 border border-dfc-dark dark:border-white p-2 rounded-full outline-none focus:outline-none"
     @click.prevent="toggleTheme"
   >
@@ -18,12 +19,23 @@
       ></path>
     </svg>
   </button>
+
+  <button v-else @click="toggleTheme" class="focus:outline-none">
+    <span class="font-mono">Toggle theme</span>
+  </button>
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue";
 
 export default defineComponent({
+  props: {
+    showIcon: {
+      type: Boolean,
+      default: true,
+    },
+  },
+
   setup() {
     const toggleTheme = () => {
       const toggled = document.documentElement.classList.toggle("dark");

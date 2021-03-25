@@ -1,10 +1,10 @@
 <template>
-  <div class="flex justify-between pt-4 lg:pt-12 xl:pt-28">
+  <div class="flex justify-between pt-4 lg:pt-12 xl:pt-18">
     <!-- Left side -->
     <div class="w-3/5 pt-10 border-l border-dashed pl-6 border-gray-400">
       <div
         class="font-light pb-10 text-justify"
-        style="font-size: 26px; line-height: 118.6%; letter-spacing: -0.04em"
+        style="font-size: 26px; letter-spacing: -0.04em"
       >
         I’m a freelancer specialising in website development, digital design, UX
         and UI. You get the skills and experience of an agency without the

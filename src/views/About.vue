@@ -191,8 +191,10 @@ export default defineComponent({
   },
 
   setup() {
+    const aboutMeText: string = data.aboutMe;
+
     const props = {
-      aboutMeText: data.aboutMe,
+      aboutMeText,
     };
 
     return {

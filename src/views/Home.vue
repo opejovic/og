@@ -47,8 +47,7 @@
       <JosefMullerBoxes class="mx-auto lg:mx-0" />
       <a
         class="block pt-10 lg:inline lg:pt-0 text-center font-mono"
-        href="#"
-        target="_blank"
+        href="mailto:ognjen@fullstacked.dev"
         rel="noopener noreferrer"
         >ognjen@fullstacked.dev</a
       >

@@ -5,9 +5,7 @@
       <h4 class="ml-1 text-4xl tracking-tighter font-bold">og.</h4>
     </div>
 
-    <div
-      class="hidden md:flex items-center space-x-10 text-nav tracking-nav font-normal"
-    >
+    <div class="hidden md:flex items-center space-x-10 text-nav tracking-nav">
       <router-link to="/" class="font-mono text-sm"
         ><span>01.</span> home</router-link
       >

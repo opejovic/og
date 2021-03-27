@@ -8,10 +8,7 @@
         class="pb-10 font-aktifo-book text-justify text-xl md:text-2xl"
         style="letter-spacing: -0.03em"
       >
-        I’m a freelancer specialising in website development, digital design, UX
-        and UI. You get the skills and experience of an agency without the
-        overheads and markup. I know my name can be hard to pronounce for
-        non-balkan people, so feel free to call me Og.
+        {{ aboutMeText }}
       </div>
 
       <div class="md:flex md:justify-between tracking-tighter">
@@ -184,12 +181,23 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from "vue";
+import { defineComponent, toRefs } from "vue";
 import FourDashedBoxes from "@/components/FourDashedBoxes.vue";
+import data from "../data";
 
 export default defineComponent({
   components: {
     FourDashedBoxes,
+  },
+
+  setup() {
+    const props = {
+      aboutMeText: data.aboutMe,
+    };
+
+    return {
+      ...toRefs(props),
+    };
   },
 });
 </script>

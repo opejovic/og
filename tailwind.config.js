@@ -9,7 +9,7 @@ module.exports = {
       fontFamily: {
         aktifo: ['Aktifo-B', 'sans-serif'],
         'aktifo-semibold': ['Aktifo-Semibold', 'sans-serif'],
-        'aktifo-book': ['Aktifo-Book', 'sans-serif']
+        'aktifo-book': ['Aktifo-Book', 'sans-serif', 'serif']
       },
       fontSize: {
         nav: '18px',

@@ -5,7 +5,7 @@
       class="w-full lg:w-3/5 pt-10 sm:border-l border-dashed pl-6 pr-6 lg:pr-0 border-gray-400"
     >
       <div
-        class="pb-10 text-justify text-xl md:text-2xl"
+        class="pb-10 font-aktifo-book text-justify text-xl md:text-2xl"
         style="letter-spacing: -0.03em"
       >
         I’m a freelancer specialising in website development, digital design, UX

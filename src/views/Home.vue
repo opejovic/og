@@ -50,7 +50,7 @@
         href="#"
         target="_blank"
         rel="noopener noreferrer"
-        >hello@ognjen.dev</a
+        >ognjen@fullstacked.dev</a
       >
     </div>
   </div>

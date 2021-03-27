@@ -2,7 +2,9 @@
   <div id="nav" class="flex justify-between items-center py-8">
     <div class="flex items-center">
       <DfcLogo />
-      <h4 class="ml-1 text-4xl tracking-tighter font-bold">og.</h4>
+      <h4 class="ml-1 text-4xl tracking-tighter font-bold font-aktifo-semibold">
+        og.
+      </h4>
     </div>
 
     <div class="hidden md:flex items-center space-x-10 text-nav tracking-nav">

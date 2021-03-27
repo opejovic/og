@@ -1,6 +1,6 @@
 <template>
   <div
-    class="min-h-screen antialiased container max-w-screen-dfc xl:max-w-screen-xl mx-auto px-4 lg:px-10"
+    class="min-h-screen antialiased container max-w-screen-dfc xl:max-w-screen-xl mx-auto px-4 lg:px-10 font-aktifo"
   >
     <NavigationComponent />
     <router-view v-slot="{ Component }">

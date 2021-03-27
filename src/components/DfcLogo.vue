@@ -21,11 +21,5 @@ import { defineComponent } from "vue";
 
 export default defineComponent({
   name: "DfcLogo",
-  setup() {
-    return {};
-  },
 });
 </script>
-
-<style scoped>
-</style>

@@ -4,18 +4,13 @@
       class="lg:flex lg:justify-between items-center pt-4 lg:pt-12 2xl:pt-28"
     >
       <div
-        class="w-full pt-2 md:pt-20 lg:pt-0 text-left lg:w-3/4 text-5xl md:text-7xl lg:text-landing"
-        style="
-          font-style: normal;
-          font-weight: 600;
-          line-height: 108.1%;
-          letter-spacing: -0.07em;
-        "
+        class="font-aktifo-semibold w-full pt-2 md:pt-20 lg:pt-0 text-left lg:w-3/4 text-5xl md:text-7xl lg:text-landing"
+        style="line-height: 108.1%; letter-spacing: -0.07em"
       >
         <p>Hello.</p>
         I’m Ognjen, and I build things for the web.
         <p
-          class="font-light relative pt-10 lg:pt-4"
+          class="font-aktifo-book relative pt-10 lg:pt-4"
           style="
             font-size: 20px;
             line-height: 150%;

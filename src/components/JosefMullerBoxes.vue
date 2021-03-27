@@ -19,11 +19,5 @@ import { defineComponent } from "vue";
 
 export default defineComponent({
   name: "JosefMullerBoxes",
-  setup() {
-    return {};
-  },
 });
 </script>
-
-<style scoped>
-</style>

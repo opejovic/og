@@ -112,6 +112,3 @@ export default defineComponent({
   name: "FourDashedBoxes",
 });
 </script>
-
-<style scoped>
-</style>

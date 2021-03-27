@@ -7,8 +7,9 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'sans': ['Aktifo-B', 'ui-sans-serif', 'system-ui'],
-        'serif': ['Aktifo-B', 'ui-serif'],
+        aktifo: ['Aktifo-B', 'sans-serif'],
+        'aktifo-semibold': ['Aktifo-Semibold', 'sans-serif'],
+        'aktifo-book': ['Aktifo-Book', 'sans-serif']
       },
       fontSize: {
         nav: '18px',

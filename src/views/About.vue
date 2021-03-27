@@ -1,12 +1,12 @@
 <template>
-  <div class="lg:flex justify-between items-center pt-4 lg:pt-12 xl:pt-18">
+  <div class="lg:flex justify-between items-center pt-4 lg:pt-10">
     <!-- Left side -->
     <div
       class="w-full lg:w-3/5 pt-10 sm:border-l border-dashed pl-6 pr-6 lg:pr-0 border-gray-400"
     >
       <div
-        class="font-light pb-10 text-justify text-xl md:text-2xl"
-        style="letter-spacing: -0.04em"
+        class="pb-10 text-justify text-xl md:text-2xl"
+        style="letter-spacing: -0.03em"
       >
         I’m a freelancer specialising in website development, digital design, UX
         and UI. You get the skills and experience of an agency without the
@@ -18,12 +18,12 @@
         <div class="pt-6 pb-8">
           <div class="relative">
             <h3
-              class="pb-6 font-mono text-lg lg:text-2xl"
-              style="font-weight: bold; line-height: 108.1%"
+              class="pb-6 font-mono font-bold text-lg lg:text-2xl"
+              style="line-height: 108.1%"
             >
               01 Discover
             </h3>
-            <ul class="text-md space-y-1">
+            <ul class="font-aktifo-book text-md space-y-1">
               <li>Listen</li>
               <li>Question</li>
               <li>Collaborate</li>
@@ -70,12 +70,12 @@
         <div class="py-6 md:border-l border-gray-400 border-dashed md:pl-6">
           <div class="relative">
             <h3
-              class="pb-6 font-mono text-lg lg:text-2xl"
-              style="font-weight: bold; line-height: 108.1%"
+              class="pb-6 font-mono font-bold text-lg lg:text-2xl"
+              style="line-height: 108.1%"
             >
               02 Design
             </h3>
-            <ul class="text-md space-y-1">
+            <ul class="font-aktifo-book text-md space-y-1">
               <li>Digital</li>
               <li>UX / UI</li>
               <li>Print</li>
@@ -122,12 +122,12 @@
         <div class="py-6 md:border-l border-gray-400 border-dashed md:pl-6">
           <div class="relative">
             <h3
-              class="pb-6 font-mono text-lg lg:text-2xl"
-              style="font-weight: bold; line-height: 108.1%"
+              class="pb-6 font-mono font-bold text-lg lg:text-2xl"
+              style="line-height: 108.1%"
             >
               03 Develop
             </h3>
-            <ul class="text-md space-y-1">
+            <ul class="font-aktifo-book text-md space-y-1">
               <li>Full-stack</li>
               <li>Accessibility</li>
               <li>Ecommerce</li>
@@ -191,11 +191,5 @@ export default defineComponent({
   components: {
     FourDashedBoxes,
   },
-  setup() {
-    return {};
-  },
 });
 </script>
-
-<style scoped>
-</style>

@@ -18,7 +18,7 @@
           "
         >
           I can help you build bespoke high-quality web applications from
-          scratch, using bleeding-edge technologies.
+          scratch, using cutting-edge techologies.
         </p>
       </div>
       <div class="hidden lg:block">

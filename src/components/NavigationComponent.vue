@@ -19,7 +19,7 @@
 
     <div class="block md:hidden">
       <button
-        class="focus:outline-none outline-none relative z-50"
+        class="focus:outline-none outline-none relative z-50 mr-4 mt-2"
         @click="toggleMenu"
       >
         <svg
@@ -55,7 +55,7 @@
       v-show="show"
       class="bg-dfc-light dark:bg-dfc-dark z-40 w-full p-10 h-screen inset-0 fixed flex items-center justify-center"
     >
-      <ul class="block font-mono text-2xl w-full text-center">
+      <ul class="block font-mono  text-md sm:text-2xl w-full text-center">
         <li @click="toggleMenu" class="py-2">
           <router-link to="/">01. home</router-link>
         </li>

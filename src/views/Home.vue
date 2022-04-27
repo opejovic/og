@@ -1,5 +1,5 @@
 <template>
-  <div class="">
+  <div>
     <div
       class="lg:flex lg:justify-between items-center pt-4 lg:pt-12 2xl:pt-28"
     >
@@ -54,7 +54,7 @@
 
 <script lang="ts">
 import { defineComponent, onMounted } from "vue";
-import { reactive, toRefs } from 'vue'
+import { reactive, toRefs } from "vue";
 import SocialMediaLinks from "@/components/SocialMediaLinks.vue";
 import JosefMullerBoxes from "@/components/JosefMullerBoxes.vue";
 
@@ -62,32 +62,32 @@ export default defineComponent({
   name: "Home",
   components: {
     SocialMediaLinks,
-    JosefMullerBoxes,
+    JosefMullerBoxes
   },
 
-    setup () {
-      onMounted(() => {
-        const text = document.getElementById('animateFirst')
+  setup() {
+    onMounted(() => {
+      const text = document.getElementById("animateFirst");
 
-        if (!sessionStorage.loaded) {
-          setTimeout(() => {
-            text?.classList.add('in-view')
-          }, 500)
+      if (!sessionStorage.loaded) {
+        setTimeout(() => {
+          text?.classList.add("in-view");
+        }, 500);
 
-          return sessionStorage.loaded = true;
-        }
-
-        text?.classList.add('in-view')
-      });
-
-      const state = reactive({
-        count: 0,
-      })
-
-      return {
-        ...toRefs(state),
+        return (sessionStorage.loaded = true);
       }
-    }
+
+      text?.classList.add("in-view");
+    });
+
+    const state = reactive({
+      count: 0
+    });
+
+    return {
+      ...toRefs(state)
+    };
+  }
 });
 </script>
 
@@ -96,19 +96,19 @@ export default defineComponent({
   opacity: 0;
   transition: transform 1s ease, opacity 1s ease;
 }
-[data-animate-in='up'] {
+[data-animate-in="up"] {
   transform: translate3d(0, 12px, 0);
 }
-[data-animate-in='left'] {
+[data-animate-in="left"] {
   transform: translate3d(-25%, 0, 0);
 }
-[data-animate-in='right'] {
+[data-animate-in="right"] {
   transform: translate3d(25%, 0, 0);
 }
-[data-animate-in='down'] {
+[data-animate-in="down"] {
   transform: translate3d(0, -12px, 0);
 }
-[data-animate-in='fade'] {
+[data-animate-in="fade"] {
   transform: translate3d(0, 0, 0);
 }
 [data-animate-in].in-view {
